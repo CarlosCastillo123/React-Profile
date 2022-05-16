@@ -1,6 +1,6 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import { Card, } from 'react-bootstrap'
+import { Card,  } from 'react-bootstrap'
 import { Button } from 'bootstrap';
 import myPDF from '../Resume.pdf';
 
@@ -26,7 +26,7 @@ function Resume() {
                     <h1>
                         Languages
                     </h1>
-                    <ul>
+                    <ul style={{textAlign: 'center', listStyle: 'inside'}}>
                         {languageList}
                     </ul>
                 </Card.Text>
@@ -34,7 +34,7 @@ function Resume() {
                     <h1>
                        Node.js and React.js Packages Used
                     </h1>
-                <ul>
+                <ul style={{textAlign: 'center', listStyle: 'inside'}}>
                    <li>React</li>
                    <li>Express</li>
                    <li>Hanglebars</li>

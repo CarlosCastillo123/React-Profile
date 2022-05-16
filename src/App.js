@@ -38,7 +38,7 @@ const handlePageChange = (page) => setCurrentPage(page)
  
     <div style={{ display: 'block', width: 700, padding: 30 }}>
    
-      <Tabs defaultActiveKey="second">
+      <Tabs defaultActiveKey="first">
         <Tab eventKey="first" title="About">
          <About/>
         </Tab>

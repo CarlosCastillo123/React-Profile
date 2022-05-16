@@ -1,12 +1,13 @@
 import React from "react"
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { Card } from "react-bootstrap"
+import me from "../me.jpeg"
 
 function About() {
     return (
     <div style={{display: "flex", justifyContent: "center", alignContent:'center'}}>     
  <Card style={{ width: '18rem', display: "flex", justifyContent: 'center', alignContent:'center' }}>
- <Card.Img variant="top" src="logo192.png" />
+ <Card.Img variant="top" src={me}/>
 
   <Card.Body>
 <Card></Card>

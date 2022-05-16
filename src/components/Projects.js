@@ -10,6 +10,7 @@ function Project(props) {
             {props.projects.map((project) => (
             <Card style={{color: "#000", width: "18rem", margin: "10px" }}>
             <Card.Img src={project.image}/>
+           
 
             <Card.Body>
 
