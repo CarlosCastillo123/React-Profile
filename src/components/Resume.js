@@ -47,7 +47,7 @@ function Resume() {
                 </Card.Text>
                 </Card.Body>
                 <Card.Footer>
-                    <a>Email: ccastillas@gmail.com</a>
+                    <a>Email: ccastillas0098476@gmail.com</a>
               <a href="https://github.com/CarlosCastillo123">
              <img/>
                   </a> 

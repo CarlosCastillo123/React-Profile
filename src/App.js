@@ -31,14 +31,14 @@ function App() {
 const handlePageChange = (page) => setCurrentPage(page)
   return (
 
-    <div className="App">
+    <div className="App" style={{backgroundColor: "#344966"}}>
       
     <Header  renderPage={renderPage} 
     handlePageChange={handlePageChange} currentPage={currentPage}/>
  
-    <div style={{ display: 'block', width: 700, padding: 30 }}>
+    <div style={{ display: 'block', padding: 30 }}>
    
-      <Tabs defaultActiveKey="first">
+      <Tabs defaultActiveKey="first" >
         <Tab eventKey="first" title="About">
          <About/>
         </Tab>

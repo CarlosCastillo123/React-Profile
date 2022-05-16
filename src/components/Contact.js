@@ -6,7 +6,7 @@ function ContactForm() {
 
 
     return (
-        <div>
+        <div style={{backgroundColor: "#344968"}}>
             <h1>
                 Send your contact info with any questions if you would like to reach out to me!
             </h1>
